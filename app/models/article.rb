@@ -1,3 +1,3 @@
 class Article < ApplicationRecord
-  validates_presence_of(:title) #by B
+  validates :title, presence: true #test-A
 end
